@@ -3,7 +3,6 @@
  This a django web app that is meant to test and  authenticates  verified users only.
 
  ## GOAL
- - Learning Django
- - To auhtenticate users who have signed up  or created   an account
+ - To implement the log in, log out and sign up functionality
 
 
