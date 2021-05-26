@@ -22,9 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     #user management
-    path('accounts/', include('django.contrib.auth.urls')),
+    path('accounts/', include('allauth.urls')),
 
-    #localo apps
-    path('accounts/', include('users.urls')),
+    #local apps
+    
     path('', include('pages.urls')),
 ]
