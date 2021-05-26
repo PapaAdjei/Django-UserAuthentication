@@ -4,6 +4,9 @@ services:
     web:
       build: .
       command: python /work/manage.py runserver 0.0.0.0:8000
+      environment:
+        - SECRET_KEY=django-insecure-b13d_npf*3=yblj^r47=hjrpe@p4v#d+w$$56xmelx#*l+8$$cx8
+        - DEBUG=1
       volumes:
         - .:/work
       ports:
